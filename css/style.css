@@ -3,11 +3,24 @@ header {
 }
 
 header h6{
+	margin-top: 15px;
+}
+
+header h6 a{
 	text-transform: uppercase;
 	padding: 10px 0;
 	font-size: 20px;
 	font-weight: 700;
 	color: #65717D;
+}
+
+header h6 a:hover{
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #65717D;
+	text-decoration: none;
 }
 
 header .navbar .collapse{
@@ -226,7 +239,7 @@ header .navbar .collapse .nav-item a:hover{
 
 .offer .cards .cards-bottom{
 	padding-bottom: 10px;
-	height: 450px;
+	height: 550px;
 }
 
 .offer .cards .cards-bottom .first-p{
@@ -234,15 +247,15 @@ header .navbar .collapse .nav-item a:hover{
 }
 
 .offer .cards .cards-bottom .first-p .submit-catalog{
-	margin-top: 132px;
+	margin-top: 102px;
 }
 
 .offer .cards .cards-bottom .second-p{
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .offer .cards .cards-bottom .second-p .submit-catalog{
-	margin-top: 73px;
+	margin-top: 143px;
 }
 
 .offer .cards .cards-bottom h4{
