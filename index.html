@@ -13,10 +13,10 @@
         <header>
             <div class="container">
                 <div class = "row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-9 col-sm-9 col-6">
                         <h6><a href="index.html">Бухгалтер</a></h6>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-3 col-sm-3 col-6">
                         <nav class="navbar navbar-expand-lg navbar-light">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
@@ -24,19 +24,19 @@
                               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav">
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Главная</a>
+                                    <a class="nav-link" href="index.html">Главная</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Обо мне</a>
+                                    <a class="nav-link" href="#about">Обо мне</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Преимущества</a>
+                                    <a class="nav-link" href="#practic">Преимущества</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Отзывы</a>
+                                    <a class="nav-link" href="#response">Отзывы</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Контакты</a>
+                                    <a class="nav-link" href="#footer">Контакты</a>
                                   </li>
                                 </ul>
                             </div>
@@ -51,8 +51,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>АНТИКРИЗИСНАЯ АКЦИЯ</h2>
-                        <h4>Только во время пандемии вы можете получить 20%ную акцию при
-                        любом ввиде заказа услуги.</h4>
+                        <h4>Всем пострадавшим отраслям во время пандемии коронавируса гарантирована скидка 20% при любом виде заказа.</h4>
                     
                         <button class="submit-catalog">ПОЛУЧИТЬ АКЦИЮ</button>
                     </div>
@@ -61,7 +60,7 @@
             
         </section>
 
-        <section class="offer">
+        <section class="offer" id = "offer">
             <div class="container">
                 <h2>Ваш персональный профессиональный бухгалтер</h2>
                 <h3>#VsegdasVami</h3>
@@ -114,6 +113,7 @@
                                     <p><i class="fas fa-check"></i> Поможет оформить субсидию от государства</p>
                                     <p><i class="fas fa-check"></i> Воспользоваться рассрочкой и освобождением по уплате налогов</p>
                                     <p><i class="fas fa-check"></i> Предложит комфортную рассрочку на бухгалтерские услуги в пандемию и период восстановления</p>
+                                    <p><i class="fas fa-check"></i> Оформить документы на льготный кредит</p>
                                     <button class="submit-catalog">ЗАКАЗАТЬ</button>
                                 </div>
                                 
@@ -124,7 +124,7 @@
             </div>
         </section>
 
-        <section class = "about">
+        <section class = "about" id = "about">
             <div class = "container">
                 <div class="row">
                     <div class="col-lg-6 roboto">
@@ -146,7 +146,7 @@
                 </div>
             </div>
         </section>
-        <section class="practic">
+        <section class="practic" id = "practic">
             <div class="container">
                 <h2>Частная практика</h2>
                 <div class="row">
@@ -189,60 +189,64 @@
             </div>
         </section>
         
-        <section class="response">
+        <section class="response" id = "response">
             <div class="container">
                 <h2>Отзывы счастливых клиентов!</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="img/response_4.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <h5>Олеся, г. Екатеринбург</h5>
-                                <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
-                            </div>
-                        </div>
+                	<div class="second-div">
+	                	<div class="row">
+		                    <div class="col-lg-6">
+		                        <div class="row">
+		                            <div class="col-lg-6 col-md-6 col-sm-6 response-img">
+		                                <img src="img/response_4.jpg" alt="">
+		                            </div>
+		                            <div class="col-lg-6 col-md-6 col-sm-6">
+		                                <h5>Олеся, г. Екатеринбург</h5>
+		                                <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-6">
+		                        <div class="row">
+		                            <div class="col-lg-6 col-md-6 col-sm-6 response-img">
+		                                <img src="img/response_3.jpg" alt="">
+		                            </div>
+		                            <div class="col-lg-6 col-md-6 col-sm-6">
+		                                <h5>Ирина, г. Н.Новгород</h5>
+		                                <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
+		                            </div>
+		                        </div>
+		                    </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="img/response_3.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <h5>Ирина, г. Нижний Новгород</h5>
-                                <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="first-div row">   
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <img src="img/response_2.jpg" alt="">
-                                </div>
-                                <div class="col-lg-6">
-                                    <h5>Наталья, г. Челябинск</h5>
-                                    <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <img src="img/response_1.jpg" alt="">
-                                </div>
-                                <div class="col-lg-6">
-                                    <h5>Виктория, г. Казань</h5>
-                                    <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="first-div"> 
+                    	<div class="row">
+	                        <div class="col-lg-6">
+	                            <div class="row">
+	                                <div class="col-lg-6 col-md-6 col-sm-6 response-img">
+	                                    <img src="img/response_2.jpg" alt="">
+	                                </div>
+	                                <div class="col-lg-6 col-md-6 col-sm-6">
+	                                    <h5>Наталья, г. Челябинск</h5>
+	                                    <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="col-lg-6">
+	                            <div class="row">
+	                                <div class="col-lg-6 col-md-6 col-sm-6 response-img">
+	                                    <img src="img/response_1.jpg" alt="">
+	                                </div>
+	                                <div class="col-lg-6 col-md-6 col-sm-6">
+	                                    <h5>Виктория, г. Казань</h5>
+	                                    <p>Все что указано в договоре, было выполнено в срок, поэтому могу поставить вашей компании "отлично" и советовать другим обращаться только к вам. Приятно удивлена уровнем ваших мастеров и их дисциплиной. Спасибо вам!</p>
+	                                </div>
+	                            </div>
+	                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
         </section>
-        <footer>    
+        <footer id="footer">    
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-12">
@@ -290,10 +294,8 @@
                 </div>  
             </div>
         </footer>
-      <script src="./js/jquery-3.2.1.min.js"></script>
-      <script src="./js/poper.js"></script>
+      <script src="./js/jquery-3.2.1.js"></script>
+      <script src="./js/popper.js"></script>
       <script src="./js/bootstrap.min.js"></script>
-      <script src="./css3-animate-it-master/js/css3-animate-it.js"></script>
-	  <script src="./js/removean.js"></script>
   </body>
 </html>
